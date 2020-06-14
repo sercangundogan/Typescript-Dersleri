@@ -1,0 +1,30 @@
+TypeScript, Javascript'in günümüz 4. Nesil dillerine
+benzemesine yarayan güzel bir araçtır. Bunun için yeni bir
+dil demek pek doğru olmaz.
+Örneğin "intro.ts" adında bir dosya oluşturduk ve
+sonrasında içerisine bir fonksiyon yazdık. İçine isim
+adında bir parametre verdik fakat type'ını belli etmedik.
+Bu fonksiyona ne değer verirsek verelim hata mesajı almayız.
+Fakat eğer parametreyi isim:string şeklinde tanımlarsak
+burada fonksiyonun içine gönderdiğimiz değere göre hata 
+alabiliriz. Örneğin içine 24 değerini göndersek, programı
+çalıştırmasak bile herhangi bir hata ile karşılaşmayız.
+
+Ayrıca bu dosyanın Javascript halini görmek için dosyayı
+Javascript'e çevirebiliriz.
+
+Konsola
+-> tsc intro.ts yazarsak intro.js adında bir dosya oluştur
+ve aradaki farkı parametre'nin type'ının js dosyasında belli
+edilmediğine dikkat ederek fark edebiliriz. 
+
+Yani kısaca TypeScript budur diyebiliriz.
+
+
+-----NODEMON-----
+Yeni bir kütüphane kurduk. Bunun adı nodemon:
+-> npm install -g nodemon
+Bu dosya sayesinde, dosyalarımızda yaptığımız herhangi
+bir değişiklikten sonra kayydettiğimizde dosya çalışacaktır.
+Ben otomatik kaydetme kullandığım için sürekli olarak çalışacaktır.
+
